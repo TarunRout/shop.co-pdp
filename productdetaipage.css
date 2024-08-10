@@ -1208,3 +1208,28 @@ a {
     font-size: 14px;
   }
 }
+
+/* responsive for pdp main page end  */
+
+/* responsive for category main page start  */
+
+@media (max-width: 768px) {
+  .extra-filter-container {
+    display: none;
+  }
+  .productlist-category {
+    padding: 10px;
+    width: 100%;
+  }
+  .bread-filter-mobile {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+  }
+}
+
+@media (max-width: 450px) {
+  .product-cat-list {
+    grid-template-columns: 1fr 1fr;
+  }
+}
